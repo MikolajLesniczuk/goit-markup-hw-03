@@ -1,0 +1,209 @@
+
+
+/*index*/
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+}
+
+.main-upper {
+    background-color:#2F303A; 
+
+}
+.main-title {
+    color: #ffffff;
+
+}
+
+.lorem-span {
+    font-family: inherit,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.lorem {
+    font-family: inherit,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #757575;
+}
+ .about-us {
+    font-family: inherit,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: #212121;
+ }
+ .our-team p{
+    font-family: inherit,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: #757575;
+ }
+ .our-team h3{
+    font-family: inherit,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: #212121;
+ }
+ .our-team h2{
+    font-family: inherit,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: #212121;
+ }
+
+ .our-team {
+    background-color: #f5f4fa;
+     }
+
+/* style portfolio.css  !!!*/
+
+
+.logoweb{
+    color:#2196F3;
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    
+}
+.logostudio{
+    color: #000000;
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    }
+    .logostudio-down {
+        font-family: 'Raleway',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        color: #ffffff;
+    }
+
+.site-nav {
+    color: #212121;
+    font-family: inherit ,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.site-nav:hover,
+.site-nav:focus {
+    color: #2196F3;
+}
+
+
+.contact {
+color: #757575;
+text-decoration: none;
+font-family: inherit ,sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+}
+.contact:hover,
+.contact:focus
+ {
+    color: #2196F3;
+}
+
+.btn {
+    cursor: pointer;
+    font-family: inherit, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    background-color: #F5F4FA;
+    color:#212121;
+}
+.btn:hover,
+.btn:focus {
+    background-color: #2196F3;
+}
+
+.btn-order {
+    cursor: pointer;
+    background-color: #2196F3;
+    color:#ffffff;
+    font-family: inherit , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+}
+
+
+
+
+.images h3{
+    font-family: inherit ,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: #212121;
+}
+
+.images p {
+    font-family: inherit,sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #757575;
+
+}
+
+
+
+.down {
+    background-color:#2F303A; 
+}
+.place {
+    color:#ffffff;
+    font-family: inherit,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.contact-footer {
+    color: rgba(255, 255, 255, 0.6) ;
+    font-family: inherit, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.contact-footer:hover,
+.contact-footer:focus {
+    color:#2196F3;
+}
