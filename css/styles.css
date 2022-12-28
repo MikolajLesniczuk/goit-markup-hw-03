@@ -239,9 +239,10 @@ flex-basis: calc((100% - 2 * 30px) / 3);
 }
 .images h3 {
     padding-top:20px;
-    padding-right: 20px;
+    padding-left: 24px;
+    
     padding-bottom: 4px;
-    padding-left: 20px;
+    
     border-left: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
     width: 370px;
@@ -250,9 +251,9 @@ flex-basis: calc((100% - 2 * 30px) / 3);
 
 .images p {
     
-        padding-right: 20px;
+        
         padding-bottom: 19px;
-        padding-left: 20px;
+        padding-left: 24px;
         border-left: 1px solid #eeeeee;
         border-right: 1px solid #eeeeee;
         border-bottom: 1px solid #eeeeee;
