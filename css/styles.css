@@ -1,12 +1,40 @@
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
 
+ul {
+
+    list-style-type: none;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px; 
+}
 /*index*/
+
+.container {
+    max-width: 1200px;
+    margin-left: 215px;
+    margin-right: 0;
+    
+}
 
 
 body {
     font-family: "Roboto", sans-serif;
     color: #212121;
+    width: 1600px;
 }
+
 
 .main-upper {
     background-color:#2F303A; 
@@ -78,6 +106,68 @@ body {
 
 /* style portfolio.css  !!!*/
 
+.logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    
+    
+}
+
+.top {
+    display: flex;
+    text-decoration: none;
+    border-bottom: 1px solid #ececec;
+    height: 80px;
+    padding-bottom: 94px;
+       
+}
+.top-nav{
+    display: flex;
+    margin-left: 93px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.top-nav-items {
+    margin-right: 46px;
+    text-decoration: none;
+    align-items: baseline;
+
+}
+.contact-mail {
+    margin-left: 318px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    align-items: baseline;
+}
+.contact-tel {
+    margin-left: 50px;
+    padding-top: 32px;
+        padding-bottom: 32px;
+        align-items: baseline;
+}
+h3 {
+    padding-top:20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    width: 370px;
+    
+}
+
+p {
+    
+        padding-right: 20px;
+        padding-bottom: 19px;
+        padding-left: 20px;
+        border-left: 1px solid #eeeeee;
+        border-right: 1px solid #eeeeee;
+        border-bottom: 1px solid #eeeeee;
+        width:370px;
+    
+}
+
 
 .logoweb{
     color:#2196F3;
@@ -86,6 +176,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    margin-left: 10px;
     
 }
 .logostudio{
@@ -95,6 +186,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    margin-right: 40px;
     }
     .logostudio-down {
         font-family: 'Raleway',sans-serif;
@@ -106,12 +198,14 @@ body {
     }
 
 .site-nav {
+   
     color: #212121;
     font-family: inherit ,sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    
 }
 .site-nav:hover,
 .site-nav:focus {
@@ -143,6 +237,17 @@ line-height: 1.14;
     line-height: 1.62;
     background-color: #F5F4FA;
     color:#212121;
+    padding: 6px 22px 6px 22px ;
+    margin-right: 8px;
+}
+.section-btn{
+    display: flex;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+.section-btn > .btn:not(:last-child) {
+    margin-right: 8px;
 }
 .btn:hover,
 .btn:focus {
@@ -162,6 +267,18 @@ line-height: 1.14;
 }
 
 
+.images-part {
+    
+    list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap:30px;
+}
+.images-part2 {
+    flex-basis: calc((100% - 2 * 30px) / 3);
+   
+    
+}
 
 
 .images h3{
@@ -194,6 +311,21 @@ line-height: 1.14;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+   
+    
+}
+.place-main {
+    margin-left: 215px;
+    padding-bottom:9px;
+    
+
+
+}
+.contact-footer-main{
+    margin-left: 215px;
+    padding-bottom:9px;
+    
+
 }
 .contact-footer {
     color: rgba(255, 255, 255, 0.6) ;
@@ -202,8 +334,19 @@ line-height: 1.14;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+   
+
 }
 .contact-footer:hover,
 .contact-footer:focus {
     color:#2196F3;
+}
+.logo-down {
+    margin-left:215px;
+    padding-top:60px;
+    padding-bottom:20px;
+
+}
+.foot{
+    padding-top:94px;
 }
