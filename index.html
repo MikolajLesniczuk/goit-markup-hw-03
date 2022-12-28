@@ -25,69 +25,80 @@
   </head>
   <body>
     <header class="container">
-      <a href="./index.html"
-        ><span class="logoweb">Web</span
-        ><span class="logostudio">Studio</span></a
-      >
-      <nav>
-        <ul>
-          <li>
-            <a class="site-nav" href="./index.html">Agencja</a>
-          </li>
-          <li>
-            <a class="site-nav" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="site-nav" href="#">Kontakt</a>
-          </li>
-        </ul>
-      </nav>
-      <a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a>
-      <a href="tel:48111111111" class="contact">+48 111 111 111</a>
+      <section class="top">
+        <a class="logo" href="./index.html"
+          ><span class="logoweb">Web</span
+          ><span class="logostudio">Studio</span></a
+        >
+        <nav>
+          <ul class="top-nav">
+            <li class="top-nav-items">
+              <span><a class="site-nav" href="./index.html">Agencja</a></span>
+            </li>
+            <li class="top-nav-items">
+              <span
+                ><a class="site-nav" href="./portfolio.html">Portfolio</a></span
+              >
+            </li>
+            <li class="top-nav-items">
+              <span><a class="site-nav" href="#">Kontakt</a></span>
+            </li>
+          </ul>
+        </nav>
+        <a href="mailto:info@devstudio.com" class="contact contact-mail"
+          >info@devstudio.com</a
+        >
+        <a href="tel:48111111111" class="contact contact-tel"
+          >+48 111 111 111</a
+        >
+      </section>
     </header>
-    <main class="container">
+    <main>
       <!--HERO-->
-      <section class="main-upper">
-        <div>
-          <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+      <section class="main-upper section">
+        <div class="main-order">
+          <h1 class="main-title">
+            EFEKTYWNE ROZWIĄZANIA<br />
+            DLA WASZEGO BIZNESU
+          </h1>
           <button class="btn-order" type="button">Zamów usługe</button>
         </div>
       </section>
 
       <!--LOREM IPSUM-->
-      <section>
+      <section class="container section">
         <div>
-          <ul>
-            <li class="lorem">
-              <span class="lorem-span">LOREM IPSUM</span> Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
-              sodales dui. Interdum et malesuada
+          <ul class="lorem-flex">
+            <li class="lorem lorem-flex-items">
+              <span class="lorem-span">LOREM IPSUM</span> <br />
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
             </li>
-            <li class="lorem">
-              <span class="lorem-span">LOREM IPSUM</span> Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
-              sodales dui. Interdum et malesuada
+            <li class="lorem lorem-flex-items">
+              <span class="lorem-span">LOREM IPSUM</span><br />
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
             </li>
-            <li class="lorem">
-              <span class="lorem-span">LOREM IPSUM</span> Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
-              sodales dui. Interdum et malesuada
+            <li class="lorem lorem-flex-items">
+              <span class="lorem-span">LOREM IPSUM</span><br />
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
             </li>
-            <li class="lorem">
-              <span class="lorem-span">LOREM IPSUM</span> Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
-              sodales dui. Interdum et malesuada
+            <li class="lorem lorem-flex-items">
+              <span class="lorem-span">LOREM IPSUM</span><br />
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
             </li>
           </ul>
         </div>
       </section>
 
       <!--CZYM SIE ZAJMUJEMY-->
-      <section>
+      <section class="section-bottom container">
         <div>
           <h2 class="about-us">Czym się zajmujemy</h2>
-          <ul>
-            <li>
+          <ul class="flex-photo">
+            <li class="flex-photo-items">
               <img
                 src="images/img.jpg"
                 alt="photo of laptop"
@@ -95,7 +106,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="flex-photo-items">
               <img
                 src="images/img2.jpg"
                 alt="photo of laptop"
@@ -103,7 +114,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="flex-photo-items">
               <img
                 src="images/img3.jpg"
                 alt="photo of laptop"
@@ -116,47 +127,47 @@
       </section>
 
       <!--NASZ ZESPÓŁ-->
-      <section class="our-team">
+      <section class="our-team section">
         <div>
-          <h2>Nasz zespół</h2>
+          <h2 class="our-teamh2">Nasz zespół</h2>
 
-          <ul>
-            <li>
+          <ul class="flex-team">
+            <li class="flex-team-items">
               <img
                 src="images/img4.jpg"
                 alt="John Doe"
-                width="406"
-                height="390"
+                width="270"
+                height="260"
               />
               <h3>John Doe</h3>
               <p>Product Designer</p>
             </li>
-            <li>
+            <li class="flex-team-items">
               <img
                 src="images/img5.jpg"
                 alt="John Doe"
-                width="406"
-                height="390"
+                width="270"
+                height="260"
               />
               <h3>John Doe</h3>
               <p>Frontend Developer</p>
             </li>
-            <li>
+            <li class="flex-team-items">
               <img
                 src="images/img6.jpg"
                 alt="John Doe"
-                width="406"
-                height="390"
+                width="270"
+                height="260"
               />
               <h3>John Doe</h3>
               <p>Marketing</p>
             </li>
-            <li>
+            <li class="flex-team-items">
               <img
                 src="images/img7.jpg"
                 alt="John Doe"
-                width="406"
-                height="390"
+                width="270"
+                height="260"
               />
               <h3>John Doe</h3>
               <p>UI Designer</p>
@@ -165,16 +176,18 @@
         </div>
       </section>
     </main>
-    <footer class="container">
+    <footer>
       <section class="down">
-        <a href="./index.html"
-          ><span class="logoweb">Web</span
-          ><span class="logostudio-down">Studio</span></a
-        >
+        <div class="logo-down">
+          <a href="./index.html"
+            ><span class="logoweb">Web</span
+            ><span class="logostudio-down">Studio</span></a
+          >
+        </div>
 
         <address>
           <ul>
-            <li>
+            <li class="place-main">
               <a
                 href="https://goo.gl/maps/JtzQ2uXpoVJzDuwd7"
                 target="_blank"
@@ -182,12 +195,12 @@
                 >m. Warszawa, Aleje Jerozolimskie 21</a
               >
             </li>
-            <li>
+            <li class="contact-footer-main">
               <a href="mailto:info@example.com" class="contact-footer"
                 >info@example.com</a
               >
             </li>
-            <li>
+            <li class="contact-footer-main">
               <a href="tel:+48111111111" class="contact-footer"
                 >+48 111 111 111</a
               >
