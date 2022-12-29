@@ -226,7 +226,7 @@ flex-basis: calc((100% - 2 * 30px) / 3);
 
 }
 .contact-mail {
-    margin-left: 318px;
+    margin-left: 350px;
     
     align-items: baseline;
 }
@@ -267,7 +267,7 @@ flex-basis: calc((100% - 2 * 30px) / 3);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    margin-left: 10px;
+    
     
 }
 .logostudio{
